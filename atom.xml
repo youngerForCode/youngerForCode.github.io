@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>youngerForCode</title>
+  
+  <subtitle>明心见性</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-08-25T03:25:21.664Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>elon</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo + github 免费搭建个人网站</title>
+    <link href="http://yoursite.com/2019/08/25/how-to-deployoy-personal-websites/"/>
+    <id>http://yoursite.com/2019/08/25/how-to-deployoy-personal-websites/</id>
+    <published>2019-08-25T03:04:05.000Z</published>
+    <updated>2019-08-25T03:25:21.664Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/26625249&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/07/11/hello-world/"/>
+    <id>http://yoursite.com/2019/07/11/hello-world/</id>
+    <published>2019-07-10T16:07:36.727Z</published>
+    <updated>2019-07-10T16:07:36.728Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Notes On Creating A Hexo Theme</title>
+    <link href="http://yoursite.com/2016/01/02/2016-01-02-notes-on-creating-a-hexo-theme/"/>
+    <id>http://yoursite.com/2016/01/02/2016-01-02-notes-on-creating-a-hexo-theme/</id>
+    <published>2016-01-01T16:00:00.000Z</published>
+    <updated>2019-07-11T11:51:06.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;image-strip&quot;&gt;
+&lt;img src=&quot;https://s3.amazonaws.com/ptsteadman-images/hexo.png&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;Setup&quot;&gt;&lt;a href=&quot;#Setup&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Programming" scheme="http://yoursite.com/tags/Programming/"/>
+    
+      <category term="Design" scheme="http://yoursite.com/tags/Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How To Impress Employers at Infosessions</title>
+    <link href="http://yoursite.com/2015/05/02/2015-05-02-how-to-impress/"/>
+    <id>http://yoursite.com/2015/05/02/2015-05-02-how-to-impress/</id>
+    <published>2015-05-01T16:00:00.000Z</published>
+    <updated>2019-07-11T11:51:06.847Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Top tech talent knows that industry recruiters often bring a stack of&lt;br&gt;pre-negotiated offers to university infosessions, so that they can snag&lt;br&gt;programmers and UX designers who really stand out.  Instead of spending valuable&lt;br&gt;time validating a particularly promising candidate’s skillset through a&lt;br&gt;protracted series of interviews, it’s often more efficient to simply &lt;strong&gt;give the&lt;br&gt;individual an offer right then and there&lt;/strong&gt;.  Internal studies at Google have shown&lt;br&gt;that experienced recruiters can usually tell if a programmer has ‘what it takes’&lt;br&gt;just from how they act at infosessions: the insightful questions they ask, the&lt;br&gt;stickers on their laptop, and how they comport themselves in general.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Humor" scheme="http://yoursite.com/categories/Humor/"/>
+    
+    
+      <category term="funny" scheme="http://yoursite.com/tags/funny/"/>
+    
+      <category term="employment" scheme="http://yoursite.com/tags/employment/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NAV Web Service Programming Resources</title>
+    <link href="http://yoursite.com/2015/04/08/2015-04-08-nav-programming-resources/"/>
+    <id>http://yoursite.com/2015/04/08/2015-04-08-nav-programming-resources/</id>
+    <published>2015-04-07T16:00:00.000Z</published>
+    <updated>2019-07-11T11:51:06.847Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Here are some of the resources I found helpful for learning to develop Dynamics NAV web service based applications.&lt;/p&gt;
+&lt;h4
+        
+      
+    
+    </summary>
+    
+      <category term="Dynamics NAV" scheme="http://yoursite.com/categories/Dynamics-NAV/"/>
+    
+    
+      <category term="Resources" scheme="http://yoursite.com/tags/Resources/"/>
+    
+      <category term="NAV" scheme="http://yoursite.com/tags/NAV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adding Lookup Field to a Page in Dynamics NAV</title>
+    <link href="http://yoursite.com/2015/04/05/2015-04-05-lookup-on-page/"/>
+    <id>http://yoursite.com/2015/04/05/2015-04-05-lookup-on-page/</id>
+    <published>2015-04-04T16:00:00.000Z</published>
+    <updated>2019-07-11T11:51:06.845Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;One of the problems I faced in building a non-trivial application that consumed&lt;br&gt;NAV Web Services was figuring out how to “join”
+        
+      
+    
+    </summary>
+    
+      <category term="Dynamics NAV" scheme="http://yoursite.com/categories/Dynamics-NAV/"/>
+    
+    
+      <category term="Resources" scheme="http://yoursite.com/tags/Resources/"/>
+    
+      <category term="NAV" scheme="http://yoursite.com/tags/NAV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Static NGINX Locations</title>
+    <link href="http://yoursite.com/2015/04/01/2015-04-01-nginx-static-locations/"/>
+    <id>http://yoursite.com/2015/04/01/2015-04-01-nginx-static-locations/</id>
+    <published>2015-03-31T16:00:00.000Z</published>
+    <updated>2019-07-11T11:51:06.845Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;I try to get a lot of mileage out of the single AWS t2.micro instance I keep running,&lt;br&gt;which means I have many different projects
+        
+      
+    
+    </summary>
+    
+      <category term="NGINX" scheme="http://yoursite.com/categories/NGINX/"/>
+    
+    
+      <category term="Web Development" scheme="http://yoursite.com/tags/Web-Development/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spaces for Newline Indents in VS</title>
+    <link href="http://yoursite.com/2015/03/23/2015-03-23-make-vs-insert-spaces/"/>
+    <id>http://yoursite.com/2015/03/23/2015-03-23-make-vs-insert-spaces/</id>
+    <published>2015-03-22T16:00:00.000Z</published>
+    <updated>2019-07-11T11:51:06.844Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;It’s really annoying when Visual Studio shows you this:&lt;/p&gt;
+&lt;img src=&quot;http://ptsteadman.github.io/images/vs1.png&quot;&gt;
+
+
+&lt;p&gt;But github or
+        
+      
+    
+    </summary>
+    
+      <category term=".NET" scheme="http://yoursite.com/categories/NET/"/>
+    
+    
+      <category term="C#" scheme="http://yoursite.com/tags/C/"/>
+    
+      <category term="Visual Studio" scheme="http://yoursite.com/tags/Visual-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome To Hexo</title>
+    <link href="http://yoursite.com/2014/02/23/2014-02-23-hello-world/"/>
+    <id>http://yoursite.com/2014/02/23/2014-02-23-hello-world/</id>
+    <published>2014-02-22T16:00:00.000Z</published>
+    <updated>2019-07-11T11:51:06.843Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;$ hexo new &amp;quot;My New Post&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Welcome" scheme="http://yoursite.com/tags/Welcome/"/>
+    
+      <category term="How-To" scheme="http://yoursite.com/tags/How-To/"/>
+    
+  </entry>
+  
+</feed>
