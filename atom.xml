@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-25T03:25:21.664Z</updated>
+  <updated>2019-10-20T15:03:46.385Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CUDA10.1安装 +VS2015开发环境搭建</title>
+    <link href="http://yoursite.com/2019/10/20/cuda10-1-an-zhuang-vs2015-kai-fa-huan-jing-da-jian/"/>
+    <id>http://yoursite.com/2019/10/20/cuda10-1-an-zhuang-vs2015-kai-fa-huan-jing-da-jian/</id>
+    <published>2019-10-20T14:46:50.000Z</published>
+    <updated>2019-10-20T15:03:46.385Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;基本信息&lt;br&gt;operator system： win10&lt;br&gt;系统中已经安装了CUDA8，可以同时安装两个版本。再安装CUDA10和仅安装CUDA10一样。在使用的时候选择CUDA10即可。&lt;/p&gt;
+&lt;h2 id=&quot;官网下载软件&quot;&gt;&lt;a href=&quot;#官网下载软件&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>hexo + github 免费搭建个人网站</title>

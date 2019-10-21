@@ -4,8 +4,10 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Welcome To Hexo, youngerForCode">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="CUDA10.1安装 +VS2015开发环境搭建, youngerForCode">
+    <meta name="description" content="基本信息operator system： win10系统中已经安装了CUDA8，可以同时安装两个版本。再安装CUDA10和仅安装CUDA10一样。在使用的时候选择CUDA10即可。
+官网下载软件官网下载地址
+tips：最好选择离线安装版本，">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Welcome To Hexo | youngerForCode</title>
+    <title>CUDA10.1安装 +VS2015开发环境搭建 | youngerForCode</title>
     <link rel="icon" type="image/png" href="/website.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -198,13 +200,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Welcome To Hexo
+                        CUDA10.1安装 +VS2015开发环境搭建
                     </div>
                 </div>
             </div>
@@ -313,29 +315,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Welcome/" target="_blank">
-                                <span class="chip bg-color">Welcome</span>
-                            </a>
-                        
-                            <a href="/tags/How-To/" target="_blank">
-                                <span class="chip bg-color">How-To</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fa fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/Hexo/" class="post-category" target="_blank">
-                                Hexo
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -343,21 +328,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2014-02-23
+                    2019-10-20
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        73
+                        1.6k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        7 分
                     </div>
                     
                 
@@ -373,17 +358,272 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<a id="more"></a>
+                <p>基本信息<br>operator system： win10<br>系统中已经安装了CUDA8，可以同时安装两个版本。再安装CUDA10和仅安装CUDA10一样。在使用的时候选择CUDA10即可。</p>
+<h2 id="官网下载软件"><a href="#官网下载软件" class="headerlink" title="官网下载软件"></a>官网下载软件</h2><p><img src="https://img-blog.csdnimg.cn/20190921104719602.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="官网下载"><br><a href="https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal" target="_blank" rel="noopener">官网下载地址</a></p>
+<p>tips：最好选择离线安装版本，安装时间较长，避免网速的干扰。</p>
+<h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p><img src="https://img-blog.csdnimg.cn/20190921110203427.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="CUDA安装"><br>一般选择精简安装即可。默认选择是覆盖原有的显卡驱动。如果选择不覆盖原有的显卡驱动，就必须得确保原有的显卡驱动匹配安装的CUDA版本，所以最好是覆盖原有显卡驱动。</p>
+<ul>
+<li>测试软件<br>安装完成后，有各个部分组件安装成功或失败的信息。</li>
+</ul>
+<h6 id="打开cmd命令行窗口，输入-nvcc-V-，如果出现版本信息表示安装成功。"><a href="#打开cmd命令行窗口，输入-nvcc-V-，如果出现版本信息表示安装成功。" class="headerlink" title="打开cmd命令行窗口，输入  nvcc -V ，如果出现版本信息表示安装成功。"></a>打开cmd命令行窗口，输入  nvcc -V ，如果出现版本信息表示安装成功。</h6><p><img src="https://img-blog.csdnimg.cn/20190921110951652.png" alt="查看CUDA安装版本"></p>
+<h6 id="安装成功，在系统变量会自动中添加CUDA的环境变量"><a href="#安装成功，在系统变量会自动中添加CUDA的环境变量" class="headerlink" title="安装成功，在系统变量会自动中添加CUDA的环境变量"></a>安装成功，在系统变量会自动中添加CUDA的环境变量</h6><p><img src="https://img-blog.csdnimg.cn/20190921111158570.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="自动添加的系统变量"><br>如果只安装cuda10 ，就只有一个版本的环境变量。</p>
+<h6 id="测试官方案例"><a href="#测试官方案例" class="headerlink" title="测试官方案例"></a>测试官方案例</h6><p>默认会安装CUDA的样例， 打开案例目录“C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\1_Utilities\deviceQuery” ，用VS打开对应版本的解决方案。</p>
+<p><img src="https://img-blog.csdnimg.cn/20190921113332398.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="官方案例"><br>打开后，编译并运行，可以看到显卡的相关信息。<br><img src="https://img-blog.csdnimg.cn/20190921113552515.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="GPU参数信息"></p>
+<h2 id="VS2015-配置"><a href="#VS2015-配置" class="headerlink" title="VS2015 配置"></a>VS2015 配置</h2><ul>
+<li><p>新建一个VS C++工程</p>
+</li>
+<li><p>给工程添加生成依赖项<br><img src="https://img-blog.csdnimg.cn/20190921114212912.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="添加依赖项"></p>
+</li>
+<li><p>选择cuda10.1<br><img src="https://img-blog.csdnimg.cn/20190921114413333.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="生成自定义"></p>
+</li>
+<li><p>添加一个cuda头文件和源文件，文件名任意<br><img src="https://img-blog.csdnimg.cn/20190921161856723.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="cuda头文件"></p>
+<h3 id="跟其他库一样，在包含目录中设置头文件的位置，在库目录中设置静态库的位置，在连接器–-gt-输入–附加依赖项中设置静态库。"><a href="#跟其他库一样，在包含目录中设置头文件的位置，在库目录中设置静态库的位置，在连接器–-gt-输入–附加依赖项中设置静态库。" class="headerlink" title="跟其他库一样，在包含目录中设置头文件的位置，在库目录中设置静态库的位置，在连接器–&gt;输入–附加依赖项中设置静态库。"></a>跟其他库一样，在包含目录中设置头文件的位置，在库目录中设置静态库的位置，在连接器–&gt;输入–附加依赖项中设置静态库。</h3></li>
+<li><p>设置cuda头文件的位置<br>为了一劳永逸，让这次设置，以后让其他工程能使用，在属性管理器中做所有的设置。如果只需要本工程使用，就在工程的属性中设置。<br>在属性管理器中，以设置debug的x64属性为例，release的x64属性与之一样，C\C++ 目录的包含目录设置为如下</p>
+<blockquote>
+<p>$(CUDA_PATH_V10_1)\include<br>C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\inc</p>
+</blockquote>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20190921164423102.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="头文件"></p>
+<ul>
+<li>设置静态库目录<br>C\C++ 目录的库目录设置为如下<blockquote>
+<p>$(CUDA_PATH_V10_1)\lib$(Platform)<br>C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64</p>
+</blockquote>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20190921164802171.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="静态库"></p>
+<ul>
+<li>设置静态库<br>在属性中选择–连接器–输入–附加依赖项<blockquote>
+<p>cublas.lib<br>cuda.lib<br>cudadevrt.lib<br>cudart.lib<br>cudart_static.lib<br>OpenCL.lib</p>
+</blockquote>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20190921165201960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="静态库"></p>
+<h4 id="至此VS的cuda设置以及配置完毕，下面就是写样例测试cuda"><a href="#至此VS的cuda设置以及配置完毕，下面就是写样例测试cuda" class="headerlink" title="至此VS的cuda设置以及配置完毕，下面就是写样例测试cuda"></a>至此VS的cuda设置以及配置完毕，下面就是写样例测试cuda</h4><ul>
+<li>头文件中声明函数，在源文件中实现函数。</li>
+</ul>
+<pre><code>//cuda_test.cuh
+#include &lt;device_launch_parameters.h&gt;
+#include &lt;device_functions.h&gt;
+#include &lt;cuda_runtime.h&gt;
+#include &lt;iostream&gt;
+#include &lt;stdint.h&gt;
+#include &lt;vector&gt;
+#include &lt;time.h&gt;
 
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+void GpuDeviceInfo();
+void test_gpuAdd();
+__global__ void rgb2grayincuda(uchar3 * const d_in, unsigned char * const d_out,
+    uint32_t imgheight, uint32_t imgwidth);
+void rgb2grayincpu(unsigned char * const d_in, unsigned char * const d_out,
+    uint32_t imgheight, uint32_t imgwidth);
+void test_bgr2gray(int flag = 0);</code></pre><ul>
+<li>原文件</li>
+</ul>
+<pre><code>// cuda_test.cu
+#include &quot;cuda_test.cuh&quot;
+
+
+void GpuDeviceInfo()
+{
+    int deviceCount = 0;
+    cudaError_t error_id = cudaGetDeviceCount(&amp;deviceCount);
+    if (error_id != cudaSuccess)
+    {
+        std::cout &lt;&lt; &quot;no GUP can query,configure may have error!\n&quot;;
+        return;
+    }
+
+    for (int dev = 0; dev &lt; deviceCount; dev++)
+    {
+        cudaSetDevice(dev);
+        cudaDeviceProp devProp;
+        error_id = cudaGetDeviceProperties(&amp;devProp, dev);
+        if (error_id != cudaSuccess)
+        {
+            std::cout &lt;&lt; &quot;GetDeviceProperties error !&quot; &lt;&lt; std::endl;
+        }
+        else
+        {
+            std::cout &lt;&lt; &quot;using GPU device &quot; &lt;&lt; dev &lt;&lt; &quot;:&quot; &lt;&lt; devProp.name &lt;&lt; std::endl;
+            std::cout &lt;&lt; &quot;number of SM: &quot; &lt;&lt; devProp.multiProcessorCount &lt;&lt; std::endl;
+            std::cout &lt;&lt; &quot;shared momery size of one thread block: &quot; &lt;&lt; devProp.sharedMemPerBlock / 1024.0 &lt;&lt; &quot; KB&quot; &lt;&lt; std::endl;
+            std::cout &lt;&lt; &quot;max thread number of one thread block: &quot; &lt;&lt; devProp.maxThreadsPerBlock &lt;&lt; std::endl;
+            std::cout &lt;&lt; &quot;max thread number of one EM: &quot; &lt;&lt; devProp.maxThreadsPerMultiProcessor &lt;&lt; std::endl;
+            std::cout &lt;&lt; &quot;max thread wraps of one EM: &quot; &lt;&lt; devProp.maxThreadsPerMultiProcessor / 32 &lt;&lt; std::endl;
+        }
+    }
+}
+
+// 两个向量加法kernel，grid和block均为一维
+__global__ void gpu_add(float* x, float * y, float* z, int n)
+{
+    // 获取全局索引
+    int index = threadIdx.x + blockIdx.x * blockDim.x;
+    // 步长
+    int stride = blockDim.x * gridDim.x;
+    for (int i = index; i &lt; n; i += stride)
+    {
+        z[i] = x[i] + y[i];
+    }
+}
+
+
+void test_gpuAdd()
+{
+    int n = 100;
+    int nBytes = n * sizeof(float);
+    float *a = (float *)malloc(nBytes);
+    float *b = (float *)malloc(nBytes);
+    float *c = (float *)malloc(nBytes);
+    for (int i = 0; i &lt; n; i++)
+    {
+        a[i] = 10.0f;
+        b[i] = 20.0f;
+        c[i] = 0.f;
+    }
+
+    float *dx, *dy, *dz;
+    cudaMalloc(&amp;dx, nBytes);
+    cudaMalloc(&amp;dy, nBytes);
+    cudaMalloc(&amp;dz, nBytes);
+
+    cudaMemcpy(dx, a, nBytes, cudaMemcpyHostToDevice);
+    cudaMemcpy(dy, b, nBytes, cudaMemcpyHostToDevice);
+    //cudaMemcpy(dz, c, nBytes, cudaMemcpyHostToDevice);
+
+    dim3 blockSize(256);
+    dim3 gridSize = (n + blockSize.x - 1) / blockSize.x;
+
+    gpu_add &lt;&lt; &lt;gridSize, blockSize &gt;&gt; &gt; (dx, dy, dz, n);
+    cudaMemcpy(c, dz, nBytes, cudaMemcpyDeviceToHost);
+
+    float maxDiff = .0f;
+    for (int i = 0; i &lt; n; i++)
+    {
+        if (std::abs(c[i] - 30.0) &gt; maxDiff)
+            maxDiff = c[i] - 30.0f;
+    }
+    std::cout &lt;&lt; &quot;max difference: &quot; &lt;&lt; maxDiff &lt;&lt; std::endl;
+
+
+    cudaFree(dx);
+    cudaFree(dy);
+    cudaFree(dz);
+    free(a);
+    free(b);
+    free(c);
+}
+
+
+//内核函数
+__global__ void rgb2grayincuda(uchar3 * const d_in, unsigned char * const d_out,
+    uint32_t imgheight, uint32_t imgwidth)
+{
+    const unsigned int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    const unsigned int idy = blockIdx.y * blockDim.y + threadIdx.y;
+
+    if (idx &lt; imgwidth &amp;&amp; idy &lt; imgheight)  //有的线程会跑到图像外面去，不执行即可
+    {
+        uchar3 rgb = d_in[idy * imgwidth + idx];
+        d_out[idy * imgwidth + idx] = 0.299f * rgb.x + 0.587f * rgb.y + 0.114f * rgb.z;
+    }
+}
+
+//用于对比的CPU串行代码
+void rgb2grayincpu(unsigned char * const d_in, unsigned char * const d_out,
+    uint32_t imgheight, uint32_t imgwidth)
+{
+    for (int i = 0; i &lt; imgheight; i++)
+    {
+        for (int j = 0; j &lt; imgwidth; j++)
+        {
+            d_out[i * imgwidth + j] = 0.299f * d_in[(i * imgwidth + j) * 3]
+                + 0.587f * d_in[(i * imgwidth + j) * 3 + 1]
+                + 0.114f * d_in[(i * imgwidth + j) * 3 + 2];
+        }
+    }
+}
+
+void test_bgr2gray(int flag)
+{
+    using namespace std;
+
+    const uint32_t imgheight = 960;
+    const uint32_t imgwidth = 480;
+    uchar3 *srcData = (uchar3 *)malloc(imgheight*imgwidth* sizeof(uchar3));
+    for (int row = 0; row &lt; imgheight; row++)
+    {
+        uchar3 *rowData = srcData + row*imgwidth;
+        for (int col = 0; col &lt; imgwidth; col++)
+        {
+
+            uchar3 *pixel = rowData + col;
+            pixel-&gt;x = col % 255;
+            pixel-&gt;y = row % 255;
+            pixel-&gt;z = (row + col) % 255;
+        }
+    }
+
+    uchar3 *d_in;   //向量类型，3个uchar
+    unsigned char *d_out;
+
+    //首先分配GPU上的内存
+    cudaMalloc((void**)&amp;d_in, imgheight*imgwidth * sizeof(uchar3));
+    cudaMalloc((void**)&amp;d_out, imgheight*imgwidth * sizeof(unsigned char));
+
+    //将主机端数据拷贝到GPU上
+    cudaMemcpy(d_in, srcData, imgheight*imgwidth * sizeof(uchar3), cudaMemcpyHostToDevice);
+
+    //每个线程处理一个像素
+    dim3 threadsPerBlock(32, 32);
+    dim3 blocksPerGrid((imgwidth + threadsPerBlock.x - 1) / threadsPerBlock.x,
+        (imgheight + threadsPerBlock.y - 1) / threadsPerBlock.y);
+
+    clock_t start, end;
+    start = clock();
+
+    //启动内核
+    rgb2grayincuda &lt;&lt; &lt;blocksPerGrid, threadsPerBlock &gt;&gt; &gt;(d_in, d_out, imgheight, imgwidth);
+    //static int flag = 0;
+    cout &lt;&lt; flag &lt;&lt; endl;
+
+    //执行内核是一个异步操作，因此需要同步以测量准确时间
+    //cudaDeviceSynchronize();
+    end = clock();
+
+    //printf(&quot;cuda exec time is %.8f\n&quot;, (double)(end - start) / double(CLOCKS_PER_SEC)*1000);
+
+    //拷贝回来数据
+    cudaMemcpy(srcData, d_out, imgheight*imgwidth * sizeof(unsigned char), cudaMemcpyDeviceToHost);
+
+    free(srcData);
+    //释放显存
+    cudaFree(d_in);
+    cudaFree(d_out);
+
+    //imshow(&quot;grayImage&quot;, grayImage);
+
+}
+</code></pre><p>并不需要写这么多测试函数，写一个测试一些即可。</p>
+<ul>
+<li>添加一个mian.cpp ，在面调用上面的测试函数。</li>
+</ul>
+<pre><code>//mian.cpp
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &quot;cuda_test.cuh&quot;
+
+void main()
+{
+    GpuDeviceInfo();
+    //test_bgr2gray(0);
+    system(&quot;pause&quot;);
+
+}</code></pre><ul>
+<li>编译并运行得到如下结果</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20190921165731131.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvX2Zlbmc=,size_16,color_FFFFFF,t_70" alt="测试结果"></p>
 
             </div>
             <hr/>
@@ -418,9 +658,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《Welcome To Hexo》
+                    《CUDA10.1安装 +VS2015开发环境搭建》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2014/02/23/2014-02-23-hello-world/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/10/20/cuda10-1-an-zhuang-vs2015-kai-fa-huan-jing-da-jian/" property="cc:attributionName"
                rel="cc:attributionURL">
                 elon
             </a> 采用
@@ -460,60 +700,41 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2015/03/23/2015-03-23-make-vs-insert-spaces/">
+                <a href="/2019/10/20/cuda10-1-an-zhuang-vs2015-kai-fa-huan-jing-da-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Spaces for Newline Indents in VS">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CUDA10.1安装 +VS2015开发环境搭建">
                         
-                        <span class="card-title">Spaces for Newline Indents in VS</span>
+                        <span class="card-title">CUDA10.1安装 +VS2015开发环境搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            It’s really annoying when Visual Studio shows you this:
-
-
-
-But github or vim shows you the same file like this:
-
-
-If you
+                            基本信息operator system： win10系统中已经安装了CUDA8，可以同时安装两个版本。再安装CUDA10和仅安装CUDA10一样。在使用的时候选择CUDA10即可。
+官网下载软件官网下载地址
+tips：最好选择离线安装版本，
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2015-03-23
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-20
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/NET/" class="post-category" target="_blank">
-                                    .NET
-                                </a>
-                            
+                            <i class="fa fa-user fa-fw"></i>
+                            elon
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/C/" target="_blank">
-                        <span class="chip bg-color">C#</span>
-                    </a>
-                    
-                    <a href="/tags/Visual-Studio/" target="_blank">
-                        <span class="chip bg-color">Visual Studio</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -521,52 +742,35 @@ If you
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2014/02/23/2014-02-23-hello-world/">
+                <a href="/2019/08/25/how-to-deployoy-personal-websites/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Welcome To Hexo">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="hexo + github 免费搭建个人网站">
                         
-                        <span class="card-title">Welcome To Hexo</span>
+                        <span class="card-title">hexo + github 免费搭建个人网站</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            人人都可以有的个人网站，收集本网站搭建过程中主要参考的资料。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2014-02-23
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-25
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Hexo/" class="post-category" target="_blank">
-                                    Hexo
-                                </a>
-                            
+                            <i class="fa fa-user fa-fw"></i>
+                            elon
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Welcome/" target="_blank">
-                        <span class="chip bg-color">Welcome</span>
-                    </a>
-                    
-                    <a href="/tags/How-To/" target="_blank">
-                        <span class="chip bg-color">How-To</span>
-                    </a>
-                    
                 </div>
                 
             </div>

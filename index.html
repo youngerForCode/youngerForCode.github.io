@@ -106,7 +106,7 @@
     
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-            <i id="searchIcon" class="fa fa-search" title="Search"></i>
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
         </a>
     </li>
 </ul>
@@ -267,7 +267,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             <div class="cover-btns">
                 <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>Start
+                    <i class="fa fa-angle-double-down"></i>开始阅读
                 </a>
 
                 
@@ -387,6 +387,43 @@ $(function () {
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2019/10/20/cuda10-1-an-zhuang-vs2015-kai-fa-huan-jing-da-jian/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="CUDA10.1安装 +VS2015开发环境搭建">
+                            
+                            <span class="card-title">CUDA10.1安装 +VS2015开发环境搭建</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                基本信息operator system： win10系统中已经安装了CUDA8，可以同时安装两个版本。再安装CUDA10和仅安装CUDA10一样。在使用的时候选择CUDA10即可。
+官网下载软件官网下载地址
+tips：最好选择离线安装版本，
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-20
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                elon
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -841,7 +878,7 @@ If you
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">2.3k</span>
+                <span class="white-color">3.9k</span>
             
 
             
@@ -890,8 +927,8 @@ If you
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
                    class="search-input">
         </div>
         <div id="searchResult"></div>
